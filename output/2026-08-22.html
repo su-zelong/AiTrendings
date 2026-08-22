@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Trending - 2026-08-22</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333;">
+
+
+<section style="background-color: #667eea; border-radius: 12px; padding: 30px 24px; margin-bottom: 24px; text-align: center;">
+  <h1 style="color: #fff; font-size: 22px; font-weight: 700; margin: 0 0 8px 0; letter-spacing: 1px;">GitHub Trending 精选</h1>
+  <p style="color: rgba(255,255,255,0.9); font-size: 14px; margin: 0;">2026年8月22日 | AI 智能精选</p>
+</section>
+
+
+<section style="background-color: #f8f9fa; border-radius: 8px; padding: 16px 20px; margin-bottom: 24px; text-align: center;">
+  <strong style="font-size: 20px; color: #667eea;">9</strong> 个精选项目 
+  <span style="color: #dee2e6;"> | </span>
+  <strong style="font-size: 20px; color: #28a745;">15064</strong> 总 Stars
+</section>
+
+
+
+<section style="background-color: #fff; border: 1px solid #e9ecef; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+
+  
+  <section style="display: flex; align-items: center; margin-bottom: 12px;">
+    <span style="background-color: #667eea; color: #fff; width: 28px; height: 28px; border-radius: 50%; display: inline-block; text-align: center; line-height: 28px; font-size: 14px; font-weight: 700; margin-right: 12px;">1</span>
+    <h2 style="font-size: 18px; font-weight: 700; color: #1a1a1a; margin: 0; line-height: 1.3;">CopilotKit/OpenBot</h2>
+  </section>
+
+  
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <span style="background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 20px; font-weight: 600;">Stars: 2258</span>
+  </section>
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <a href="https://github.com/CopilotKit/OpenBot" style="color: #667eea; text-decoration: underline;">CopilotKit/OpenBot - 原文链接</a>
+  </section>
+
+  
+  <section style="background-color: #f8f9fa; border-radius: 8px; padding: 16px; margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">项目简介</strong>
+    <p style="font-size: 14px; color: #495057; margin: 8px 0 0 0; line-height: 1.8;">OpenBot 是一个开源的 AI 智能体平台，让每个 AI 同事拥有独立的计算机环境（浏览器、文件、工具），所有操作在执行前经过策略决策、执行后记录审计。它基于 AG-UI 开放协议，支持任意框架（LangGraph、Mastra、CrewAI 等）或手写的智能体接入。项目解决的核心痛点是：传统 AI 智能体直接使用用户工具时缺乏安全管控，无法信任其访问敏感资源。OpenBot 通过网关统一管控所有操作，结合 CEL 策略、审计日志和人工接管机制，使企业可以安全地让 AI 处理真实工作。其特色包括每 Bot 独立容器、策略即配置、可审计、支持组件化响应、自带身份认证与多租户支持，适合需要高安全性和合规性的企业场景。</p>
+  </section>
+
+  
+  <section style="margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">技术栈</strong>
+    <p style="font-size: 13px; color: #495057; margin: 8px 0 0 0;">TypeScript、React、Vite、Hono、Docker、Bun、PostgreSQL、pgvector、Chromium、CopilotKit Intelligence、AG-UI、LangGraph、CEL、gVisor、</p>
+  </section>
+
+  
+  <section>
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">学习路线</strong>
+    <section style="margin: 8px 0 0 0; color: #495057; font-size: 13px;">
+      
+      <p style="margin: 4px 0;">• 基础知识：掌握 TypeScript、React、Docker 基础，了解 AI 智能体（Agent）概念和工具调用（function calling）原理。</p>
+      
+      <p style="margin: 4px 0;">• 前置文档：阅读 AG-UI 协议规范（github.com/ag-ui-protocol/ag-ui）、CopilotKit 官方文档、CEL 策略语言基础。</p>
+      
+      <p style="margin: 4px 0;">• 快速运行：克隆仓库，复制 .env.example 为 .env，配置 CopilotKit Intelligence 凭据和模型 API 密钥，执行 bun install 和 bash scripts/start.sh，访问 localhost:3010。</p>
+      
+      <p style="margin: 4px 0;">• 核心文件：先阅读 docs/architecture.md 了解架构，再查看 server 网关代码、agent-computer 服务、supervisor 服务，以及 agents.yaml 配置示例。</p>
+      
+      <p style="margin: 4px 0;">• 关键概念：理解 AG-UI 端点、网关决策与审计、每 Bot 独立容器（computer）、CEL 策略评估、组件化响应、人工接管（control taken）流程。</p>
+      
+      <p style="margin: 4px 0;">• 动手实验：在 /admin/boundaries 配置策略并观察审计日志，尝试添加自定义 AG-UI 端点，通过 /admin/playground 创建沙箱组件。</p>
+      
+      <p style="margin: 4px 0;">• 深入部署：研究 Docker Compose 服务拆分、EMBEDDED_POSTGRES 单镜像部署、gVisor 运行时隔离、多副本部署注意事项。</p>
+      
+      <p style="margin: 4px 0;">• 扩展开发：阅读 docs/development.md，修改 Drizzle schema 并执行迁移，为 gateway 添加新策略或插件，或开发自定义 AG-UI Bot 接入。</p>
+      
+    </section>
+  </section>
+
+</section>
+
+<section style="background-color: #fff; border: 1px solid #e9ecef; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+
+  
+  <section style="display: flex; align-items: center; margin-bottom: 12px;">
+    <span style="background-color: #667eea; color: #fff; width: 28px; height: 28px; border-radius: 50%; display: inline-block; text-align: center; line-height: 28px; font-size: 14px; font-weight: 700; margin-right: 12px;">2</span>
+    <h2 style="font-size: 18px; font-weight: 700; color: #1a1a1a; margin: 0; line-height: 1.3;">s1dashu/ip-as-logo-skill</h2>
+  </section>
+
+  
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <span style="background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 20px; font-weight: 600;">Stars: 3669</span>
+  </section>
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <a href="https://github.com/s1dashu/ip-as-logo-skill" style="color: #667eea; text-decoration: underline;">s1dashu/ip-as-logo-skill - 原文链接</a>
+  </section>
+
+  
+  <section style="background-color: #f8f9fa; border-radius: 8px; padding: 16px; margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">项目简介</strong>
+    <p style="font-size: 14px; color: #495057; margin: 8px 0 0 0; line-height: 1.8;">ip-as-logo 是一个紧凑的 Agent Skill，用于生成极简、可爱、可直接商用的 IP 吉祥物 logo。它定义了一套详细的提示词规范，引导 AI 生成具有圆润轮廓、简洁形状、固定构图和柔和色彩的形象。该技能基于开放的 Agent Skills 格式，可适配多种支持图像生成的 AI 代理，如 Codex、Coze 等。它解决了品牌 logo 设计中 IP 形象难以保持一致性、复杂度失控、风格不统一的问题，通过严格的约束和批量生成机制，让用户快速获得高质量候选图。其核心特色是强调吉祥物的亲和力、极简风格、角落构图和语义化配色，同时保持生成过程的透明，不进行自动筛选或重试。适合需要快速产出概念吉祥物的设计师、初创团队或 AI 绘画爱好者。</p>
+  </section>
+
+  
+  <section style="margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">技术栈</strong>
+    <p style="font-size: 13px; color: #495057; margin: 8px 0 0 0;">Agent Skills、Markdown、npx、Codex、Coze、Doubao、YouMind、Manus、Gemini Apps、Replit Agent、Cloudflare R2、Supabase、</p>
+  </section>
+
+  
+  <section>
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">学习路线</strong>
+    <section style="margin: 8px 0 0 0; color: #495057; font-size: 13px;">
+      
+      <p style="margin: 4px 0;">• 基础知识：了解 AI Agent 的基本概念，熟悉与 AI 对话并生成图像的交互方式，理解 Markdown 语法。</p>
+      
+      <p style="margin: 4px 0;">• 前置课程：阅读 Agent Skills 官方文档（open-agent-skills），了解 Skill 的目录结构和 SKILL.md 的编写规范。</p>
+      
+      <p style="margin: 4px 0;">• 入门步骤：使用命令 `npx skills@latest add s1dashu/ip-as-logo-skill` 安装技能，然后在支持图像生成的 Agent 中直接描述你想要的 IP 角色。</p>
+      
+      <p style="margin: 4px 0;">• 核心文件：重点阅读仓库根目录下的 `SKILL.md`，其中包含了所有的设计约束、生成流程和提示词要求。</p>
+      
+      <p style="margin: 4px 0;">• 关键概念：理解语义化配色（两种 IP 主色加一种背景色）、角落构图（IP 从左下或右下浮现）、极简形状（4-7 个大形状）、一次性批量生成六个候选等核心设计原则。</p>
+      
+      <p style="margin: 4px 0;">• 深入学习：尝试修改 SKILL.md 中的规则以调整风格，或参考其方法创建自己的技能。访问 ipaslogo.com 浏览实际生成的示例，分析不同提示词的效果。</p>
+      
+      <p style="margin: 4px 0;">• 进阶探索：研究如何将技能与产品仓库上下文结合，通过读入项目信息自动生成更贴合的吉祥物；尝试与子代理并行生成多个候选以提升效率。</p>
+      
+    </section>
+  </section>
+
+</section>
+
+<section style="background-color: #fff; border: 1px solid #e9ecef; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+
+  
+  <section style="display: flex; align-items: center; margin-bottom: 12px;">
+    <span style="background-color: #667eea; color: #fff; width: 28px; height: 28px; border-radius: 50%; display: inline-block; text-align: center; line-height: 28px; font-size: 14px; font-weight: 700; margin-right: 12px;">3</span>
+    <h2 style="font-size: 18px; font-weight: 700; color: #1a1a1a; margin: 0; line-height: 1.3;">MengTo/threeui</h2>
+  </section>
+
+  
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <span style="background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 20px; font-weight: 600;">Stars: 1219</span>
+  </section>
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <a href="https://github.com/MengTo/threeui" style="color: #667eea; text-decoration: underline;">MengTo/threeui - 原文链接</a>
+  </section>
+
+  
+  <section style="background-color: #f8f9fa; border-radius: 8px; padding: 16px; margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">项目简介</strong>
+    <p style="font-size: 14px; color: #495057; margin: 8px 0 0 0; line-height: 1.8;">ThreeUI Community 是一个开源的、免登录的 ThreeUI 组件目录库，基于 HTML/JavaScript 构建，提供交互式 UI 组件实时预览和完整源码。它解决了开发者寻找高质量 React/Three.js 组件时缺乏免费可定制选项的问题，相比主项目 Pro 版本，Community 版去除了付费和测试组件，但保留了所有免费变体和控件。其核心价值在于拥有 50 个父级组件、141 个免费变体，支持本地运行、npm 安装，并可通过 CLI 下载 Pro 源码，适合想要快速集成现代 3D/UI 组件的开发者。独特之处在于与 ThreeUI 主项目共享同一套框架，且同步机制确保社区版本持续更新。</p>
+  </section>
+
+  
+  <section style="margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">技术栈</strong>
+    <p style="font-size: 13px; color: #495057; margin: 8px 0 0 0;">HTML、JavaScript、React、Three.js、npm、Node.js、CLI、</p>
+  </section>
+
+  
+  <section>
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">学习路线</strong>
+    <section style="margin: 8px 0 0 0; color: #495057; font-size: 13px;">
+      
+      <p style="margin: 4px 0;">• 掌握 HTML、CSS、JavaScript 基础，了解 React 组件化开发思想</p>
+      
+      <p style="margin: 4px 0;">• 熟悉 npm 包管理和 Node.js 环境，阅读 React 官方文档中关于组件和 props 的说明</p>
+      
+      <p style="margin: 4px 0;">• 运行 npm install &amp;&amp; npm run dev 启动本地开发环境，浏览交互式组件目录</p>
+      
+      <p style="margin: 4px 0;">• 阅读仓库的 src 目录结构，重点关注 components 和 data 文件夹中的源码</p>
+      
+      <p style="margin: 4px 0;">• 理解 Three.js 渲染原理及组件如何与 Three.js 交互，学习组件变体和控件的配置方式</p>
+      
+      <p style="margin: 4px 0;">• 通过阅读 package.json 中的脚本和构建配置，掌握项目的发布和同步流程</p>
+      
+      <p style="margin: 4px 0;">• 尝试使用 npm install @designcodeio/threeui 安装包，在个人项目中导入和自定义组件</p>
+      
+      <p style="margin: 4px 0;">• 进阶学习源码中的同步机制和 CLI 工具，理解如何扩展和贡献组件</p>
+      
+    </section>
+  </section>
+
+</section>
+
+<section style="background-color: #fff; border: 1px solid #e9ecef; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+
+  
+  <section style="display: flex; align-items: center; margin-bottom: 12px;">
+    <span style="background-color: #667eea; color: #fff; width: 28px; height: 28px; border-radius: 50%; display: inline-block; text-align: center; line-height: 28px; font-size: 14px; font-weight: 700; margin-right: 12px;">4</span>
+    <h2 style="font-size: 18px; font-weight: 700; color: #1a1a1a; margin: 0; line-height: 1.3;">yetone/cumora</h2>
+  </section>
+
+  
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <span style="background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 20px; font-weight: 600;">Stars: 2891</span>
+  </section>
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <a href="https://github.com/yetone/cumora" style="color: #667eea; text-decoration: underline;">yetone/cumora - 原文链接</a>
+  </section>
+
+  
+  <section style="background-color: #f8f9fa; border-radius: 8px; padding: 16px; margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">项目简介</strong>
+    <p style="font-size: 14px; color: #495057; margin: 8px 0 0 0; line-height: 1.8;">Cumora 是开源的跨平台团队聊天应用，将 AI 代理作为与人类平等的一等参与者。它支持云托管代理和 BYOA（自带 Claude Code/Codex）两种模式，核心功能包括代理拥有独立人格与记忆、认领任务、相互协调、收发真实邮件，并集成看板和日历。它解决了传统协作工具中 AI 只能被动响应、无法主动协作的痛点。其独特之处在于多代理协调机制（seen-cursor freshness gate）和原子认领，避免冲突。技术栈为 TypeScript 全栈，前端 React 18，后端 Node.js&#43;Express&#43;Postgres&#43;Redis，支持桌面、移动、Web。适合需要将 AI 深度融入团队协作的开发团队和自动化场景。</p>
+  </section>
+
+  
+  <section style="margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">技术栈</strong>
+    <p style="font-size: 13px; color: #495057; margin: 8px 0 0 0;">TypeScript、React、Node.js、Express、WebSocket、PostgreSQL、Redis、Kubernetes、OpenAI API、Claude Code、Go、Cloudflare Workers、</p>
+  </section>
+
+  
+  <section>
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">学习路线</strong>
+    <section style="margin: 8px 0 0 0; color: #495057; font-size: 13px;">
+      
+      <p style="margin: 4px 0;">• 基础知识：掌握 TypeScript、React、Node.js、SQL/PostgreSQL 基础，了解 WebSocket 通信。</p>
+      
+      <p style="margin: 4px 0;">• 前置课程：阅读 README 和 docs/ 下的架构文档（如 COORDINATION.md、BYOA.md），理解 AI 代理、多代理系统概念。</p>
+      
+      <p style="margin: 4px 0;">• 入门步骤：按照 Run locally 配置 Postgres/Redis 和 OPENAI_API_KEY，执行 npm run setup &amp;&amp; npm run dev:all，打开本地应用。</p>
+      
+      <p style="margin: 4px 0;">• 核心文件：阅读 server/src 后端入口、src 前端组件、docs/ 下文档，了解项目结构。</p>
+      
+      <p style="margin: 4px 0;">• 关键概念：理解 seen-cursor freshness gate 协调机制、原子认领、小脑分流（triage gate）等。</p>
+      
+      <p style="margin: 4px 0;">• 深入学习：运行 benchmarks 测试，研究 agent-cli 和 agent-fuse 实现，了解 BYOA 原理。</p>
+      
+      <p style="margin: 4px 0;">• 进阶实践：尝试部署到 Kubernetes 云环境，集成自定义代理或修改前端功能。</p>
+      
+    </section>
+  </section>
+
+</section>
+
+<section style="background-color: #fff; border: 1px solid #e9ecef; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+
+  
+  <section style="display: flex; align-items: center; margin-bottom: 12px;">
+    <span style="background-color: #667eea; color: #fff; width: 28px; height: 28px; border-radius: 50%; display: inline-block; text-align: center; line-height: 28px; font-size: 14px; font-weight: 700; margin-right: 12px;">5</span>
+    <h2 style="font-size: 18px; font-weight: 700; color: #1a1a1a; margin: 0; line-height: 1.3;">wang2122/sprix-sage-router</h2>
+  </section>
+
+  
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <span style="background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 20px; font-weight: 600;">Stars: 1168</span>
+  </section>
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <a href="https://github.com/wang2122/sprix-sage-router" style="color: #667eea; text-decoration: underline;">wang2122/sprix-sage-router - 原文链接</a>
+  </section>
+
+  
+  <section style="background-color: #f8f9fa; border-radius: 8px; padding: 16px; margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">项目简介</strong>
+    <p style="font-size: 14px; color: #495057; margin: 8px 0 0 0; line-height: 1.8;">Spx AI SAGE Router是一个开源的研究型路由框架，用于A2A（Agent-to-Agent）代理网络。它解决的是代理发现之后更难的运行时决策问题：谁应该与谁合作。项目通过SELF（独立执行）、COLLABORATE（协作）和HANDOFF（移交）三种模式，在统一的效用函数中比较不同路由方案，并考虑任务DAG、上下文信任、预算、截止日期等约束。其特色是状态感知、可审计的决策输出，以及基于执行证据的在线学习。它适合需要动态多代理协作、任务调度和信任评估的复杂应用场景，尤其适用于构建可扩展的A2A服务网络。</p>
+  </section>
+
+  
+  <section style="margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">技术栈</strong>
+    <p style="font-size: 13px; color: #495057; margin: 8px 0 0 0;">Python 3.10&#43;、Agent2Agent (A2A) Protocol、Beam Search、Online Learning、Task DAG Scheduling、Utility Function、</p>
+  </section>
+
+  
+  <section>
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">学习路线</strong>
+    <section style="margin: 8px 0 0 0; color: #495057; font-size: 13px;">
+      
+      <p style="margin: 4px 0;">• 基础知识：掌握Python编程基础，熟悉多代理系统和A2A协议的基本概念（如Agent Card、任务、消息传递）。</p>
+      
+      <p style="margin: 4px 0;">• 前置课程：阅读Agent2Agent Protocol规范文档，理解代理发现、消息传递和任务执行的基本流程。</p>
+      
+      <p style="margin: 4px 0;">• 入门步骤：克隆仓库并运行 `python demo.py`，观察路由决策输出；再运行 `python -m unittest -v` 和 `python benchmark.py` 了解测试与基准。</p>
+      
+      <p style="margin: 4px 0;">• 核心文件：阅读 `sprix_sage.py`（路由核心实现）、`ALGORITHM.md`（算法细节）、`demo.py`（示例）和 `benchmark.py`（模拟评估）。</p>
+      
+      <p style="margin: 4px 0;">• 关键概念：理解SELF/COLLABORATE/HANDOFF模式、效用函数、团队覆盖率、任务DAG调度、上下文信任和束搜索算法。</p>
+      
+      <p style="margin: 4px 0;">• 深入学习：研读ALGORITHM.md中的数学推导，尝试修改效用函数或添加新的约束，并复现benchmark中的实验结果。</p>
+      
+      <p style="margin: 4px 0;">• 扩展实践：结合A2A协议实现真实代理集成，或基于Spix marketplace数据离线回放路由决策，探索在线学习策略。</p>
+      
+    </section>
+  </section>
+
+</section>
+
+<section style="background-color: #fff; border: 1px solid #e9ecef; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+
+  
+  <section style="display: flex; align-items: center; margin-bottom: 12px;">
+    <span style="background-color: #667eea; color: #fff; width: 28px; height: 28px; border-radius: 50%; display: inline-block; text-align: center; line-height: 28px; font-size: 14px; font-weight: 700; margin-right: 12px;">6</span>
+    <h2 style="font-size: 18px; font-weight: 700; color: #1a1a1a; margin: 0; line-height: 1.3;">vvxw/deploy-vercel</h2>
+  </section>
+
+  
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <span style="background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 20px; font-weight: 600;">Stars: 1086</span>
+  </section>
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <a href="https://github.com/vvxw/deploy-vercel" style="color: #667eea; text-decoration: underline;">vvxw/deploy-vercel - 原文链接</a>
+  </section>
+
+  
+  <section style="background-color: #f8f9fa; border-radius: 8px; padding: 16px; margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">项目简介</strong>
+    <p style="font-size: 14px; color: #495057; margin: 8px 0 0 0; line-height: 1.8;">deploy-vercel 是一个基于 Vercel 的无服务器部署工具/模板，主要用于快速创建和部署代理订阅生成服务。用户通过模板创建项目，修改环境变量，并部署到 Vercel，即可获得一个可用的订阅链接。其核心功能是提供伪装网页和订阅信息，并支持通过 Cloudflare Workers 反代加速。该工具解决了传统自建代理订阅服务需要维护服务器、配置复杂的问题，利用 Vercel 的免费托管和边缘网络实现低成本、易维护的部署方案。其特色在于一键部署、环境变量灵活配置、支持多地区选择以及通过反代实现 CDN 加速，适合个人用户快速搭建代理订阅服务。</p>
+  </section>
+
+  
+  <section style="margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">技术栈</strong>
+    <p style="font-size: 13px; color: #495057; margin: 8px 0 0 0;">JavaScript、Node.js、Vercel、HTML、Cloudflare Workers、npm、</p>
+  </section>
+
+  
+  <section>
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">学习路线</strong>
+    <section style="margin: 8px 0 0 0; color: #495057; font-size: 13px;">
+      
+      <p style="margin: 4px 0;">• 基础知识：了解 Vercel 部署流程、JavaScript 基础、环境变量概念以及代理订阅的基本原理。</p>
+      
+      <p style="margin: 4px 0;">• 前置课程：阅读 Vercel 官方文档，了解如何导入仓库和配置部署；熟悉 Cloudflare Workers 基本用法。</p>
+      
+      <p style="margin: 4px 0;">• 入门步骤：点击 Use this template 创建项目，修改 index.js 中的环境变量，用 AI 生成伪装 HTML，然后按照 README 部署到 Vercel。</p>
+      
+      <p style="margin: 4px 0;">• 核心文件：重点阅读 index.js（环境变量和订阅逻辑）、index.thml（伪装页面）以及 README 中的部署配置说明。</p>
+      
+      <p style="margin: 4px 0;">• 关键概念：理解环境变量在 Node.js 中的作用、Vercel 的 regions 代码对应关系、反代/CDN 加速的原理。</p>
+      
+      <p style="margin: 4px 0;">• 深入学习：尝试自定义订阅逻辑，结合 Cloudflare Workers 编写反代代码，优化地区选择，或集成订阅转换器。</p>
+      
+      <p style="margin: 4px 0;">• 进阶实践：利用 Vercel 的 serverless 函数扩展功能，添加用户认证或流量统计，并学习如何部署到多个区域。</p>
+      
+      <p style="margin: 4px 0;">• 排错优化：学习如何调试部署失败问题，处理域名被墙的情况，以及如何通过混淆代码保护订阅信息。</p>
+      
+    </section>
+  </section>
+
+</section>
+
+<section style="background-color: #fff; border: 1px solid #e9ecef; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+
+  
+  <section style="display: flex; align-items: center; margin-bottom: 12px;">
+    <span style="background-color: #667eea; color: #fff; width: 28px; height: 28px; border-radius: 50%; display: inline-block; text-align: center; line-height: 28px; font-size: 14px; font-weight: 700; margin-right: 12px;">7</span>
+    <h2 style="font-size: 18px; font-weight: 700; color: #1a1a1a; margin: 0; line-height: 1.3;">Leutenegger/vanity-eth</h2>
+  </section>
+
+  
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <span style="background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 20px; font-weight: 600;">Stars: 803</span>
+  </section>
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <a href="https://github.com/Leutenegger/vanity-eth" style="color: #667eea; text-decoration: underline;">Leutenegger/vanity-eth - 原文链接</a>
+  </section>
+
+  
+  <section style="background-color: #f8f9fa; border-radius: 8px; padding: 16px; margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">项目简介</strong>
+    <p style="font-size: 14px; color: #495057; margin: 8px 0 0 0; line-height: 1.8;">VanityKit 是一个用于比特币和以太坊的离线虚荣地址生成器，属于命令行工具类应用。它通过本地生成私钥并推导地址，支持前缀、后缀和子串匹配，覆盖比特币的 Legacy、Nested SegWit、Native SegWit、Taproot 以及以太坊 EIP-55 校验和地址。该项目解决了用户对自定义地址（如以特定单词开头）的需求，同时强调离线、无网络请求、无遥测，以提升安全性和可审计性。相比 C&#43;&#43;/GPU 工具如 VanitySearch，VanityKit 采用纯 Python 实现，速度较慢但代码可读性强，适合需要简单、可审查工作流的场景。其核心优势在于多进程并行搜索、实时进度反馈、独立验证工具以及自带 Bech32 实现，适合生成短模式地址或离线安全环境。</p>
+  </section>
+
+  
+  <section style="margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">技术栈</strong>
+    <p style="font-size: 13px; color: #495057; margin: 8px 0 0 0;">Python 3.10&#43;、coincurve (libsecp256k1 bindings)、pycryptodome (Keccak-256)、base58、click、tqdm、pytest、ruff、</p>
+  </section>
+
+  
+  <section>
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">学习路线</strong>
+    <section style="margin: 8px 0 0 0; color: #495057; font-size: 13px;">
+      
+      <p style="margin: 4px 0;">• 基础知识：掌握 Python 基础语法、命令行使用、比特币和以太坊地址生成原理（私钥、公钥、哈希、编码）</p>
+      
+      <p style="margin: 4px 0;">• 前置课程：阅读 README 快速了解功能；学习 EIP-55、BIP-173/BIP-350（Bech32/Bech32m）、P2PKH/P2WPKH/P2TR 等协议规范</p>
+      
+      <p style="margin: 4px 0;">• 入门步骤：克隆仓库，创建虚拟环境，安装依赖，运行 `vanity eth --prefix cafe` 或 `vanity btc --type legacy --prefix 1Love` 体验</p>
+      
+      <p style="margin: 4px 0;">• 核心文件：阅读 `src/` 下的 CLI 入口、地址生成模块（如 `eth.py`、`btc.py`）、Bech32 实现、验证辅助函数</p>
+      
+      <p style="margin: 4px 0;">• 关键概念：理解多进程并行搜索机制、概率与难度估算、私钥到地址的推导流程、EIP-55 校验和规则、SegWit/Taproot 地址结构</p>
+      
+      <p style="margin: 4px 0;">• 深入学习：阅读 SECURITY.md 和 CONTRIBUTING.md，尝试修改代码添加新地址类型或优化搜索策略，运行 `pytest` 和 `ruff` 参与开发</p>
+      
+      <p style="margin: 4px 0;">• 进阶实践：结合硬件钱包或离线环境进行真实场景测试，对比 VanitySearch 等高性能工具，理解性能差异和适用边界</p>
+      
+    </section>
+  </section>
+
+</section>
+
+<section style="background-color: #fff; border: 1px solid #e9ecef; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+
+  
+  <section style="display: flex; align-items: center; margin-bottom: 12px;">
+    <span style="background-color: #667eea; color: #fff; width: 28px; height: 28px; border-radius: 50%; display: inline-block; text-align: center; line-height: 28px; font-size: 14px; font-weight: 700; margin-right: 12px;">8</span>
+    <h2 style="font-size: 18px; font-weight: 700; color: #1a1a1a; margin: 0; line-height: 1.3;">Leutenegger/watermarks-remover</h2>
+  </section>
+
+  
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <span style="background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 20px; font-weight: 600;">Stars: 932</span>
+  </section>
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <a href="https://github.com/Leutenegger/watermarks-remover" style="color: #667eea; text-decoration: underline;">Leutenegger/watermarks-remover - 原文链接</a>
+  </section>
+
+  
+  <section style="background-color: #f8f9fa; border-radius: 8px; padding: 16px; margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">项目简介</strong>
+    <p style="font-size: 14px; color: #495057; margin: 8px 0 0 0; line-height: 1.8;">watermarks-remover 是一个用于移除多厂商 AI 来源痕迹的 Python 工具与服务，支持 Unicode 文本清洗、统计重写以及从 PNG/JPEG/SVG/PDF/DOCX/HTML/MD 等文件中剥离 C2PA/元数据。它解决 AI 生成内容携带 provenance 水印（如 Claude、Gemini/SynthID、OpenAI、开源 LLM 的标记）导致隐私泄露或合规风险的问题，现有方案往往只处理单一厂商或单一格式，且无法同时覆盖文本与文件元数据。该项目采用分层设计：Layer A 确定性清理不可见 Unicode 字符，Layer B 通过 LLM 重写对抗统计水印，文件层支持超过 20 种格式的元数据剥离，并提供 HTTP 服务、Docker 部署和 Agent skill 集成。其独特之处在于模块化、stdlib-first、可选外部验证 harness（MarkLLM/MarkDiffusion），并明确区分可验证与 best-effort 的清理效果，适合内容所有者的隐私保护和授权研究场景。</p>
+  </section>
+
+  
+  <section style="margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">技术栈</strong>
+    <p style="font-size: 13px; color: #495057; margin: 8px 0 0 0;">Python 3.10&#43;、HTTP (stdlib server)、Docker / docker compose、C2PA (c2patool)、ExifTool、qpdf、MarkLLM、MarkDiffusion、CtrlRegen / noai-watermark、reverse-SynthID、Ollama、OpenAI-compatible API、pre-commit、pytest、</p>
+  </section>
+
+  
+  <section>
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">学习路线</strong>
+    <section style="margin: 8px 0 0 0; color: #495057; font-size: 13px;">
+      
+      <p style="margin: 4px 0;">• 基础知识：掌握 Python 3 基础、文件格式基础（PNG/JPEG/PDF/DOCX 等）、Unicode 字符编码知识（零宽字符、双向文本、同形异义空格）</p>
+      
+      <p style="margin: 4px 0;">• 前置课程：阅读 README 中的 How text marking works 章节、vendor-notes.md 和 removal-matrix.md，了解 AI 水印的分类（Unicode、统计采样、C2PA、像素级）</p>
+      
+      <p style="margin: 4px 0;">• 入门步骤：克隆仓库，运行 make serve 或直接启动 server.py，然后使用 curl 调用 /clean 接口；或直接运行 service/scripts/ 下的 clean_text.py、clean_file.py 处理样例文件</p>
+      
+      <p style="margin: 4px 0;">• 核心文件：先阅读 service/scripts/clean_text.py、clean_file.py、inspect_text.py、image_meta.py、server.py，理解分层清理管道和格式路由逻辑</p>
+      
+      <p style="margin: 4px 0;">• 关键概念：Layer A 与 Layer B 的分工、C2PA 清单结构、PDF 元数据增量写入注入风险（exiftool &#43; qpdf 必要性）、最佳努力清理与可验证清理的区别、同配置检测非 vendor oracle 的限制</p>
+      
+      <p style="margin: 4px 0;">• 深入学习：配置可选外置工具（c2patool、exiftool、qpdf），尝试 Layer B 重写 hook（Ollama / OpenAI-compatible），运行 MarkLLM/ MarkDiffusion 验证 harness，理解 SynthID 像素评分和 CtrlRegen 像素移除的适用场景</p>
+      
+      <p style="margin: 4px 0;">• 进阶部署：学习 Docker/compose 多 profile 架构（core/harness/heavy）、.env 配置、API 认证、批处理端点，以及如何将服务集成到自己的 Web 应用或 Agent 技能中</p>
+      
+      <p style="margin: 4px 0;">• 实践验证：运行测试套件（pytest / make smoke），使用 audit_dir.py 和 pre-commit 钩子检查项目中的 AI 痕迹，并阅读伦理与免责声明（ethics.md）确保合规使用</p>
+      
+    </section>
+  </section>
+
+</section>
+
+<section style="background-color: #fff; border: 1px solid #e9ecef; border-radius: 12px; padding: 20px; margin-bottom: 16px;">
+
+  
+  <section style="display: flex; align-items: center; margin-bottom: 12px;">
+    <span style="background-color: #667eea; color: #fff; width: 28px; height: 28px; border-radius: 50%; display: inline-block; text-align: center; line-height: 28px; font-size: 14px; font-weight: 700; margin-right: 12px;">9</span>
+    <h2 style="font-size: 18px; font-weight: 700; color: #1a1a1a; margin: 0; line-height: 1.3;">Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report</h2>
+  </section>
+
+  
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <span style="background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 20px; font-weight: 600;">Stars: 1038</span>
+  </section>
+  <section style="margin-bottom: 16px; font-size: 13px;">
+    <a href="https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report" style="color: #667eea; text-decoration: underline;">Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report - 原文链接</a>
+  </section>
+
+  
+  <section style="background-color: #f8f9fa; border-radius: 8px; padding: 16px; margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">项目简介</strong>
+    <p style="font-size: 14px; color: #495057; margin: 8px 0 0 0; line-height: 1.8;">本项目是DeepSeek V4与J-Space认知套件结合的能力实现报告，属于技术评测与工程观察文档。核心功能是展示J-Space作为推理阶段模型无关控制系统，在不修改模型权重的情况下，通过状态账本、验证与恢复机制降低Agent任务中的能力实现损失。技术背景是DeepSeek V4的Agent后训练行为与DSH极简接口分布过强耦合，产生思维链二极管现象（短思维直觉与长思维推理无法按任务阶段稳定切换），导致结构化弊端。现有方案如Anchored Standard和Routing Suite分别处理入口锚定与任务路由，但缺乏全生命周期控制。J-Space的价值在于提供持续的工程控制，在多个Benchmark上显著提升分数，适合需要深度Agent控制的场景，特色是黑盒工程诊断与操作性术语。</p>
+  </section>
+
+  
+  <section style="margin-bottom: 16px;">
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">技术栈</strong>
+    <p style="font-size: 13px; color: #495057; margin: 8px 0 0 0;">DeepSeek V4 (Flash/Pro)、J-Space Cognition Suite V3.6、DeepSeek Harness (DSH)、Anchored Standard、Routing Suite、Benchmark (HLE, Terminal Bench, NL2Repo, etc.)、</p>
+  </section>
+
+  
+  <section>
+    <strong style="font-size: 12px; color: #667eea; letter-spacing: 1px;">学习路线</strong>
+    <section style="margin: 8px 0 0 0; color: #495057; font-size: 13px;">
+      
+      <p style="margin: 4px 0;">• 基础知识：了解LLM、Agent、工具调用、Prompt工程和推理过程。</p>
+      
+      <p style="margin: 4px 0;">• 前置课程：阅读DeepSeek V4模型卡和DSH Harness极简模式文档。</p>
+      
+      <p style="margin: 4px 0;">• 入门步骤：克隆J-Space Cognition Suite仓库，按照README配置环境，在DeepSeek V4上运行示例。</p>
+      
+      <p style="margin: 4px 0;">• 核心文件：阅读J-Space的README、状态账本定义、验证器实现和工作空间路由等关键文件。</p>
+      
+      <p style="margin: 4px 0;">• 关键概念：理解思维链二极管、极简接口过拟合假说、bridge-before-conclusion、Empirics、Next等机制。</p>
+      
+      <p style="margin: 4px 0;">• 深入学习：复现Benchmark，对比有无J-Space的分数，分析不同任务类型的影响。</p>
+      
+      <p style="margin: 4px 0;">• 拓展研究：阅读Anchored Standard和Routing Suite的公开材料，理解入口恢复和任务路由。</p>
+      
+      <p style="margin: 4px 0;">• 进阶探索：设计自己的实验验证能力实现，或组合三套方案进行统一测试。</p>
+      
+    </section>
+  </section>
+
+</section>
+
+
+
+<section style="text-align: center; padding: 20px 0; border-top: 1px solid #e9ecef; margin-top: 24px;">
+  <p style="font-size: 12px; color: #6c757d; margin: 0;">以上内容由 AI 自动生成，仅供参考学习</p>
+  <p style="font-size: 11px; color: #adb5bd; margin: 4px 0 0 0;">Powered by AiTreadings</p>
+</section>
+
+</section>
+
+  </div>
+</body>
+</html>
